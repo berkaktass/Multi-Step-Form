@@ -1,0 +1,64 @@
+:root {
+    --Marine-blue : hsl(213, 96%, 18%);
+    --Purplish-blue : hsl(243, 100%, 62%);
+    --Pastel-blue : hsl(228, 100%, 84%);
+    --Light-blue : hsl(206, 94%, 87%);
+    --Strawberry--red : hsl(354, 84%, 57%);
+    --Cool-gray : hsl(231, 11%, 63%);
+    --Light-gray : hsl(229, 24%, 87%);
+    --Magnolia : hsl(217, 100%, 97%);
+    --Alabaster : hsl(231, 100%, 99%);
+    --White : hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--Light-gray);
+    width: 1440px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.left-container{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right-container{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+
+.right-container > h1 {
+    color: var(--Marine-blue);
+    font-weight: 700;
+}
+
+.right-container > p{
+    color: var(--Light-gray);
+}
+
+.btn-primary{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    width: 100px;
+    height: 50px;
+}
+
+.right-container .images img  {
+    position: absolute;
+    top: 300px;
+}
+
+.btn-default{
+    position: absolute;
+    top: 400px;
+    color: var(--Cool-gray);
+    background-color: var(--Cool-gray);
+}
